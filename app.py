@@ -8,7 +8,7 @@ import os
 model= joblib.load('rf_classifier.pkl')
 scaler=joblib.load('rf_scaler.pkl')
 
-st.title("Wine Classifier App")
+st.title("Wine App")
 st.write("Enter the wine features below to classify the wine category.")
 
 # Feature Names (Modify as per your dataset)
